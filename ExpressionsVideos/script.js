@@ -6,7 +6,7 @@ var b;
 //add 3 to a
 b = a + 3;
 console.log(b);
-*/
+
 
 //Arithmetic Operators
 
@@ -16,3 +16,9 @@ var height = 5;
 var area = width * height/2;
 
 console.log(area);
+    */
+
+//Modulo Operator
+
+var remainder = 211 % 2;
+console.log(remainder);
