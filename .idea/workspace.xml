@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e09ea095-ee6e-4d53-a81e-1aef8c3e6502" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AssociatingJS/index.html" afterPath="$PROJECT_DIR$/AssociatingJS/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AssociatingJS/js/script.js" afterPath="$PROJECT_DIR$/AssociatingJS/js/script.js" />
-    </list>
+    <list default="true" id="e09ea095-ee6e-4d53-a81e-1aef8c3e6502" name="Default" comment="" />
     <ignored path="Criado_Desiree_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +25,20 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Values_Variables/Defining/index.html">
+        <entry file="file://$PROJECT_DIR$/Values_Variables/Arrays/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Values_Variables/Defining/script.js">
+        <entry file="file://$PROJECT_DIR$/Values_Variables/Arrays/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24144869" vertical-offset="0" max-vertical-offset="497">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33199194" vertical-offset="0" max-vertical-offset="497">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,8 +60,12 @@
         <option value="$PROJECT_DIR$/AssociatingJS/index.html" />
         <option value="$PROJECT_DIR$/Values_Variables/index.html" />
         <option value="$PROJECT_DIR$/Values_Variables/script.js" />
-        <option value="$PROJECT_DIR$/Values_Variables/Defining/script.js" />
         <option value="$PROJECT_DIR$/Values_Variables/Defining/index.html" />
+        <option value="$PROJECT_DIR$/Values_Variables/Defining/script.js" />
+        <option value="$PROJECT_DIR$/Values_Variables/String And Boolean Variables/index.html" />
+        <option value="$PROJECT_DIR$/Values_Variables/String And Boolean Variables/script.js" />
+        <option value="$PROJECT_DIR$/Values_Variables/Arrays/index.html" />
+        <option value="$PROJECT_DIR$/Values_Variables/Arrays/script.js" />
       </list>
     </option>
   </component>
@@ -136,6 +137,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -148,7 +150,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.printingtotheconsole.js">
+  <component name="RunManager" selected="Node.js.week2.js">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
@@ -196,17 +198,9 @@
       <ConfigurationWrapper RunnerId="Basic" />
       <method />
     </configuration>
-    <configuration default="false" name="printingtotheconsole.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="printingtotheconsole.js" working-dir="$PROJECT_DIR$/Values_Variables">
-      <RunnerSettings RunnerId="Basic" />
-      <RunnerSettings RunnerId="debuggableProgram" />
-      <ConfigurationWrapper RunnerId="Basic" />
-      <ConfigurationWrapper RunnerId="debuggableProgram" />
-      <method />
-    </configuration>
-    <list size="3">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.script.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.week2.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.printingtotheconsole.js" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -317,7 +311,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Values_Variables/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+        <state vertical-scroll-proportion="0.28541225" vertical-offset="0" max-vertical-offset="473">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
@@ -325,16 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Values_Variables/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+        <state vertical-scroll-proportion="0.24144869" vertical-offset="0" max-vertical-offset="497">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Values_Variables/Defining/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -343,6 +329,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24144869" vertical-offset="0" max-vertical-offset="497">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Values_Variables/Defining/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28541225" vertical-offset="0" max-vertical-offset="473">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Values_Variables/String And Boolean Variables/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Values_Variables/String And Boolean Variables/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Values_Variables/Arrays/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Values_Variables/Arrays/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33199194" vertical-offset="0" max-vertical-offset="497">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
