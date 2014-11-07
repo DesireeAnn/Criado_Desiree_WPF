@@ -10,19 +10,19 @@ alert("Let's find out how much it will cost to fill up your car's gas tank!");
 var current = prompt("How many gallons of gas are currently in your car?");
 
 //Console.log out the response
-console.log(current);
+console.log("There are " + current + " gallons of gas currently in the car's tank.");
 
 //Ask user how much gas the car hold in total
 var total = prompt("What is the total amount of gas the tank can hold?");
 
 //Console.log out the response
-console.log(total);
+console.log("The car can hold a total of " + total + " gallons of gas.");
 
 //Ask user how much gas costs per gallon in their area
 var price = prompt("What is the cost of gas per gallon at the gas station?");
 
 //Console.log out the response
-console.log(price);
+console.log("Gas currently costs $" + price + ".");
 
 //Calculate the total cost of gas
 var cost = (total - current) * price;
