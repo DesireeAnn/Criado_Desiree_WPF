@@ -29,7 +29,7 @@ var disneySweets = [daysShared/2, daysSingle];
 console.log(disneySweets);
 
 //add days by myself to days with my fiance/2
-var disneySweets = disneySweets[0] + disneySweets[1] ;
+var disneySweets = Number(disneySweets[0]) + Number(disneySweets[1]) ;
 
 //console.log results
 console.log(disneySweets);
@@ -41,4 +41,4 @@ var totalDays = Number(daysSingle) + Number(daysShared);
 console.log(totalDays);
 
 //Alert user to results
-alert("If I visit Disneyland" + totalDays + ", I will eat " + disneySweets + " churros in Disneyland next year!");
+alert("If I visit Disneyland " + totalDays + " days and spend " +daysShared+ " of those days with my fiance', I will eat " + disneySweets + " churros in Disneyland next year!");
