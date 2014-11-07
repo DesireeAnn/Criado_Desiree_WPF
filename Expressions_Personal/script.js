@@ -2,9 +2,9 @@
 11-06-14
 Expressions - Personal
  */
-
-//Alert user to the purpose: how much money will fill your tank
-alert("Let's fill up your gas tank!");
+//Calculate how much it will cost to fill user's gas tank in their car
+//Alert user to the purpose
+alert("Let's find out how much it will cost to fill up your car's gas tank!");
 
 //Ask user how much gas is in their car right now
 var current = prompt("How many gallons of gas are currently in your car?");

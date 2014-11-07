@@ -1,4 +1,6 @@
-/*Desiree Criado
+/* Desiree Criado
 11-06-14
 Expressions - Wacky
  */
+
+//Calculate how many ch
