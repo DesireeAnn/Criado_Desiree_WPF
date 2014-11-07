@@ -17,13 +17,13 @@ var daysShared = prompt("How many days will I visit the park with him throughout
 //console.log user input
 console.log(daysShared);
 
-var days = prompt("How many days do I intend to spend in the park without him throughout the year?");
+var daysSingle = prompt("How many days do I intend to spend in the park without him throughout the year?");
 
 //console.log user input
-console.log(days);
+console.log(daysSingle);
 
 //divide days with fiance by 2 for half the churro
-var disneySweets = [daysShared/2, days];
+var disneySweets = [daysShared/2, daysSingle];
 
 //console.log results
 console.log(disneySweets);
@@ -31,5 +31,14 @@ console.log(disneySweets);
 //add days by myself to days with my fiance/2
 var disneySweets = disneySweets[0] + disneySweets[1] ;
 
+//console.log results
+console.log(disneySweets);
+
+//calculate total days spent in Disneyland
+var totalDays = Number(daysSingle) + Number(daysShared);
+
+//console.log results
+console.log(totalDays);
+
 //Alert user to results
-alert("If I visit Disneyland" + daysI will eat "+disneySweets+" churros in Disneyland next year!");
+alert("If I visit Disneyland" + totalDays + ", I will eat " + disneySweets + " churros in Disneyland next year!");
