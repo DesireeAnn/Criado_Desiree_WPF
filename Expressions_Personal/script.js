@@ -28,7 +28,7 @@ console.log(price);
 var cost = (total - current) * price;
 
 //Console.log results
-console.log(cost);
+console.log("It will cost you$" + cost + " to fill your tank.");
 
 //Alert users to the results
-alert("It will cost you $" +cost+ " to fill your tank.");
+alert("It will cost you $" + cost + " to fill your tank.");

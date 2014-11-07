@@ -26,7 +26,7 @@ console.log(designNo);
 //Calculate total number of screens
 var totalScreens = designSide * designNo + color * designNo;
  //Console.log out results
-console.log(totalScreens);
+console.log("Desi will need " + totalScreens + " screens to print this week.");
 //Present results to user
 alert("Desi will need "+ totalScreens + " screens to print this week.");
 

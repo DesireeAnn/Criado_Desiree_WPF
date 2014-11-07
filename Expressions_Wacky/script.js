@@ -38,7 +38,7 @@ console.log(disneySweets);
 var totalDays = Number(daysSingle) + Number(daysShared);
 
 //console.log results
-console.log(totalDays);
+console.log("If I visit Disneyland " + totalDays + " days and spend " +daysShared+ " of those days with my fiance', I will eat " + disneySweets + " churros in Disneyland next year!");
 
 //Alert user to results
 alert("If I visit Disneyland " + totalDays + " days and spend " +daysShared+ " of those days with my fiance', I will eat " + disneySweets + " churros in Disneyland next year!");
