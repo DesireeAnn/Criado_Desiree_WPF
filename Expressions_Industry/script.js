@@ -20,7 +20,7 @@ var designNo = prompt("How many designs need to be printed?");
 console.log(designNo);
 
 //Calculate total number of screens
-var totalScreens = designSide * color * designNo;
+var totalScreens = designSide * designNo + color * designNo;
 
 //Present results to user
 alert("Desi will need "+ totalScreens + " screens to print this week.");
