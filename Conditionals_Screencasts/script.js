@@ -50,7 +50,6 @@ else{
     //code performed if condition is false
     console.log("Sorry kid, you've got some growing to do first!");
 }
-*/
 
 
 //else if
@@ -72,4 +71,8 @@ else if(kidHeight > parentHeight){
     //sorry, you have growing to do
     console.log("Sorry kid, you've got some growing to do first!");
 }
+*/
+
+//Relational and Equality operators - can only compare 2 things for T/F
+
 
