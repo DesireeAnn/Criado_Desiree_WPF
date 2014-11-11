@@ -8,7 +8,7 @@ if(oldEnough){
     console.log("You can ride the coaster!");
 }
 console.log("What comes after");
-*/
+
 
 //Relational Expressions
 
@@ -17,6 +17,19 @@ var minHeight = 48;
 
 //if the child is over the height of 48 inches
 if(kidHeight > minHeight){
+    //code performed if condition is true
+    console.log("You can ride the coaster!");
+}
+*/
+
+//Conditional Logic with an Expression
+
+var kidHeight = 47;
+var minHeight = 48;
+var sneakerLift = 2;
+
+//if the child is over the height of 48 inches, but shoes give them extra 2 inches
+if(kidHeight + sneakerLift > minHeight){
     //code performed if condition is true
     console.log("You can ride the coaster!");
 }
