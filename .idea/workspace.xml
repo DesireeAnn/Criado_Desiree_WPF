@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e09ea095-ee6e-4d53-a81e-1aef8c3e6502" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ExpressionsVideos/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ExpressionsVideos/script.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Screencasts/script.js" afterPath="$PROJECT_DIR$/Conditionals_Screencasts/script.js" />
     </list>
     <ignored path="Criado_Desiree_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +39,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals_Screencasts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28723404" vertical-offset="0" max-vertical-offset="470">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.41489363" vertical-offset="0" max-vertical-offset="470">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -494,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Screencasts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28723404" vertical-offset="0" max-vertical-offset="470">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.41489363" vertical-offset="0" max-vertical-offset="470">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
