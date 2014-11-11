@@ -33,14 +33,12 @@ if(kidHeight + sneakerLift > minHeight){
     //code performed if condition is true
     console.log("You can ride the coaster!");
 }
-*/
 
 
 //If and else
 
 var kidHeight = 47;
 var minHeight = 48;
-
 
 //if the child is over the height of 48 inches
 if(kidHeight >  minHeight){
@@ -52,3 +50,26 @@ else{
     //code performed if condition is false
     console.log("Sorry kid, you've got some growing to do first!");
 }
+*/
+
+
+//else if
+
+var kidHeight = 42;
+var minHeight = 48;
+var parentHeight = 45; //the height of the kid with the parent
+
+//if the child is over the height of 48 inches
+if(kidHeight >  minHeight){
+    //code performed if condition is true
+    console.log("You can ride the coaster!");
+}
+//If the child is not over 48 inches
+else if(kidHeight > parentHeight){
+    //you can ride with a parent present
+    console.log("You can ride, but only with a parent present.");
+}else{
+    //sorry, you have growing to do
+    console.log("Sorry kid, you've got some growing to do first!");
+}
+
