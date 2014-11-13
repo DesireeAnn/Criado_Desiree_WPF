@@ -77,12 +77,12 @@ else if(kidHeight > parentHeight){
 
 //Logical Operators - only used between boolean variables or relational expressions
 
-var budget = 300;
+var budget = 100;
 var iPhonePrice = 199.99;
-var paycheck = 200;
+var wonLottery = true;
 
-//if price of the phone is less than our budget AND paycheck is over 300
-if(iPhonePrice < budget && paycheck > 300){
+//if price of the phone is less than our budget AND we win the lottery
+if(iPhonePrice < budget || wonLottery === true){
     console.log("We can buy the phone!");
 }else{
     console.log("No phone for you!");
