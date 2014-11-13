@@ -79,10 +79,10 @@ else if(kidHeight > parentHeight){
 
 var budget = 100;
 var iPhonePrice = 199.99;
-var wonLottery = true;
+var wonLottery = false;
 
 //if price of the phone is less than our budget AND we win the lottery
-if(iPhonePrice < budget || wonLottery === true){
+if(iPhonePrice < budget || wonLottery){
     console.log("We can buy the phone!");
 }else{
     console.log("No phone for you!");
