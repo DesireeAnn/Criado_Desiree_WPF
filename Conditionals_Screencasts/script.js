@@ -75,4 +75,17 @@ else if(kidHeight > parentHeight){
 
 //Relational and Equality operators - can only compare 2 things for T/F
 
+//Logical Operators - only used between boolean variables or relational expressions
+
+var budget = 300;
+var iPhonePrice = 199.99;
+var paycheck = 200;
+
+//if price of the phone is less than our budget AND paycheck is over 300
+if(iPhonePrice < budget && paycheck > 300){
+    console.log("We can buy the phone!");
+}else{
+    console.log("No phone for you!");
+}
+
 
