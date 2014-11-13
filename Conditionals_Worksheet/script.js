@@ -19,7 +19,7 @@ if(currentGas * mpg >= 200){
 }
 */
 
-//Check the login
+//Group 2 - Check the login
 //Define givens
 var username = true;
 var password = true;
@@ -27,3 +27,5 @@ var password = true;
 if(username = true){
     console.log("Welcome, "+)
 }
+
+//Group 3 - Movie Ticket Price
