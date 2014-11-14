@@ -8,15 +8,16 @@ Conditionals - Industry
 alert("Let's find out which shirt brand will create the highest profit!");
 //Ask user for first brand's wholesale price.
 var shirtPriceA = prompt("What is the wholesale price of the first shirt brand?");
+
 //Check for user input
-if(shirtPriceA = ""){
+if(shirtPriceA === ""){
     shirtPriceA = prompt("Looks like we missed your response. What is the wholesale price of the first shirt brand?");
 }
 //Ask user for second brand's wholesale price
 var shirtPriceB = prompt("What is the second brand's wholesale price?");
 
 //Check for user input
-if(shirtPriceB = ""){
+if(shirtPriceB === ""){
     shirtPriceB = prompt("Oops! We need answer. What is the second brand's wholesale price?");
 }
 //Define client's unit price

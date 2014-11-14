@@ -10,8 +10,12 @@ alert("Thank you for feeding our pets while we're away!");
 //Record whether or not the cats already ate their first serving
 var cats = prompt("Do the cats currently have food in their bowl?");
 
+//Check for user input
+
 //Record whether or not the dogs already ate their first serving
 var dogs = prompt("Do the dogs currently have food in their bowl?");
+
+//Check for user input
 
 //If both the dogs and cats have empty bowls
 if(cats === "no" && cats === dogs){
