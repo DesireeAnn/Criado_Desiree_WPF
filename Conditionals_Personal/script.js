@@ -21,19 +21,20 @@ if(dogs === ""){dogs = prompt("Looks like we missed your answer! Do the dogs cur
 
 //If both the dogs and cats have empty bowls
 if(cats === "no" && cats === dogs){
-    alert("You will need to feed the cats and the dogs twice!");
-    console.log("You will need to feed the cats and the dogs twice!");}
+    alert("You will need to feed the cats and the dogs twice.");
+    console.log("You will need to feed the cats and the dogs twice.");}
 
 //If both the cats and dogs have food in their bowls
 if(cats === "yes" && cats === dogs){
-    alert("You will need to feed the cats and the dogs only once!");
-    console.log("You will need to feed the cats and the dogs only once!");}
+    alert("You will need to feed the cats and the dogs only once.");
+    console.log("You will need to feed the cats and the dogs only once.");}
 
  //If the cats have food in their bowls but the dogs do not
 if(cats === "yes" && cats != dogs){
     alert("You will need to feed the cats once and the dogs twice.");
-    console.log("You will need to feed the cats once and the dogs twice.");
+    console.log("You will need to feed the cats once and the dogs twice.");}
 
  //If the cats do not have food in their bowls but the dogs do
-    }else{alert("You will need to feed the cats twice and the dogs once.");
+if(cats === "no" && cats != dogs){
+    alert("You will need to feed the cats twice and the dogs once.");
     console.log("You will need to feed the cats twice and the dogs once.");}
