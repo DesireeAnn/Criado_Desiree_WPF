@@ -16,6 +16,7 @@ var dogs = prompt("Do the dogs currently have food in their bowl?");
 //If both the dogs and cats have empty bowls
 if(cats === "no" && cats === dogs){
     alert("You will need to feed the cats and the dogs twice!");}
+
 //If both the cats and dogs have food in their bowls
 if(cats === "yes" && cats === dogs){
     alert("You will need to feed the cats and the dogs only once!");}
@@ -23,8 +24,5 @@ if(cats === "yes" && cats === dogs){
  //If the cats have food in their bowls but the dogs do not
 if(cats === "yes" && cats != dogs){
     alert("You will need to feed the cats once and the dogs twice.");
-    //If the cats do not have food in their bowls but the dogs do
+ //If the cats do not have food in their bowls but the dogs do
     }else{alert("You will need to feed the cats twice and the dogs once.");}
-
-
-
