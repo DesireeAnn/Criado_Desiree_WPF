@@ -4,7 +4,7 @@ function functionName (){
     //code the function runs
 }
 
-//Functions - Execution
+//Functions - Invocation
 
 //Function Definition
 function calcArea(){
@@ -39,7 +39,7 @@ funcName (argument1, argument2);
 function funcName (parameter1, parameter2){
     //code the function runs
 }
-*/
+
 function dogYears(age){//holds parameters
     var dogYears = age * 7;
     console.log("Sparky is " + dogYears+ " years old.");
@@ -47,3 +47,13 @@ function dogYears(age){//holds parameters
 var age1 = 4;
 dogYears(6);//holds arguments
 dogYears(age1);
+*/
+//Functions - Returning Values
+
+var total = calcArea(30, 20);//store functions' return into variable
+
+function calcArea(w, h){
+    var area = w * h;
+    return area; //function spitting the info out
+}
+console.log(total);
