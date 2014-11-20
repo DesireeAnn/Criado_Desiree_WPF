@@ -12,3 +12,7 @@ var a = calcCirc(2,3.14);
 console.log("The circumference of the circle is "+ a);
 
 //Stung!
+var calcTotalStings = function(weight){
+    var noStings = weight * 8.666666667;
+    return noStings;
+}
