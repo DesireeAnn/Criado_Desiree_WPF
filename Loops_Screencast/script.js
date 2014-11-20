@@ -15,3 +15,9 @@ do{
     c--;
 }
 while(c > 0);
+
+//Loops - "for" loop: combines loops into one line
+
+for (var i = 10; i > 0; i--){
+    console.log(i + " kegs on the wall")
+}
