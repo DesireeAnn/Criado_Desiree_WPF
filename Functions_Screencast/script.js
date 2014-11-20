@@ -47,7 +47,7 @@ function dogYears(age){//holds parameters
 var age1 = 4;
 dogYears(6);//holds arguments
 dogYears(age1);
-*/
+
 //Functions - Returning Values
 
 var total = calcArea(30, 20);//store functions' return into variable
@@ -57,3 +57,15 @@ function calcArea(w, h){
     return area; //function spitting the info out
 }
 console.log(total);
+    */
+//Functions vs. Procedures - Functions return values and Procedures do not
+function calcAreaF(width, height){
+    var area = width * height;
+    return area;//function call
+}
+
+//This is a procedure
+function calcAreaP(width, height){
+    var area = width * height;
+    console.log(area); //no return
+}
