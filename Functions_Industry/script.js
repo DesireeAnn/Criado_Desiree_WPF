@@ -4,16 +4,29 @@ Functions - Industry
  */
 //Providing basic price quote for clients
 
+//Define design fee variable
+var designFee = 4;
+
 //Greet User
 alert("Thank you for your interest in our work! We'd be happy to provide you with a basic estimate.");
 
 //Prompt for Shirt or Sweater
 var style = prompt("Are you purchasing a shirt or sweater?");
 
+//Print to console
+console.log(style);
+
 //Prompt for Front Only or Front and Back
-var sides = prompt("Design on Front Only or Front and Back?");
+var sides = prompt("Does the design require 1 side or 2 sides?");
+
+//Print to console
+console.log(sides);
 
 //Prompt for Number of Colors based on previous answer
-if(sides = "Front Only"){
+if(sides < 2){
     var colors = prompt("How many colors are in the design?");
-}else{var colors = prompt("How many colors on the front and back combined?");}
+}else {var colors = prompt("How many colors on the front and back combined?");}
+
+//Print to console
+console.log(colors);
+
