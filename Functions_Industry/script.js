@@ -4,9 +4,6 @@ Functions - Industry
  */
 //Providing basic price quote for clients
 
-//Define design fee variable
-var designFee = 4;
-
 //Greet User
 alert("Thank you for your interest in our work! We'd be happy to provide you with a basic estimate.");
 
@@ -32,13 +29,15 @@ if(sides < 2){
 
 //Print to console
 console.log(colors);
-
-//Define function
-calcPrice();
-function calcPrice(){
-    var price = designFee + Number(style) + Number(sides * colors);
+//Define design fee variable
+var designFee = 4
+//Function call
+calcPrice(Number(designFee), Number(style), Number(sides), Number(colors));
+//Function definition
+function calcPrice(designFee, style, sides, colors){
+    var price = designFee + style + (sides * colors);
     console.log("The shirt will cost $" + price);
+    alert("The shirt will cost $" + price);
 }
-
 
 
