@@ -26,14 +26,13 @@ var child = prompt("How many children do you have?");
 //Print to console
 console.log(child);
 
-//Age verification for 1 child
-prompt("Is your child 18 or over?");
-
-//Age verification for multiple children
-prompt("Please enter the age of each child.");
+//Age verification for children
+var age = prompt("How many children are 18 or over?");
 
 //Underage Child alert
-var underAge = child < 18
-alert("I'm sorry, but this event is for adults only. We apologize for the inconvenience.");
-
-if(child >= 18)
+if(age == 0) {
+    alert("I'm sorry, but this event is for adults only. We apologize for the inconvenience.");
+}
+if(age > 0){
+    console.log(age);
+}
