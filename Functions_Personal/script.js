@@ -10,10 +10,15 @@ alert("We can't wait to share our special day with our friends and family!");
 //Prompt whether or not guest will be bringing a date
 var guest = prompt("Will you be bringing a date?");
 
+if(guest = "no"){
+    guest = 0;
+}else if(guest = "yes"){
+    guest = 1;
+}
+
 //Print to console
 console.log(guest);
 
-if(guest = )
 
 //Prompt whether or not the guest has children
 var child = prompt("How many children do you have?");
@@ -21,6 +26,12 @@ var child = prompt("How many children do you have?");
 //Print to console
 console.log(child);
 
-if(child > 0 && guest = "no"){
-    alert("There is 1 seat reserved in your name. See you then!");
-}
+prompt("Is your child 18 or over?");
+
+prompt("Please enter the age of each child.");
+
+var underAge = child < 18
+
+alert("I'm sorry, but this event is for adults only. We apologize for the inconvenience.");
+
+if(child >= 18)
