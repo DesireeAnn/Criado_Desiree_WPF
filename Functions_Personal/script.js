@@ -36,3 +36,11 @@ if(age == 0) {
 if(age > 0){
     console.log(age);
 }
+
+var calcRes = function(age, child, guest) {
+    var seats = (age * child) ++ guest ++ 1;
+    return seats;
+}
+var totalSeats = calcRes(age, child, guest);
+console.log(totalSeats);
+
