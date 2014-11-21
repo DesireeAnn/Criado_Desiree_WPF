@@ -16,9 +16,16 @@ var homework = prompt("How many hours of homework do I have today?");
 
 console.log(homework);
 
-var totalCups = function(shirts, serve, homework){
-    var coffee = shirts + serve + homework;
-    return coffee;
+if(homework < 3){
+    homework = 1
+}else if(homework >= 3){
+    homework = 2
 }
-console.log(totalCups);
-alert("I will drink " + totalCups + " cups of coffee today.");
+
+function totalCups(){
+    var cups = (Number(shirts) + Number(serve) + Number(homework));
+    console.log("I will drink " + cups + " cups of coffee today.");
+    alert("I will drink " + cups + " cups of coffee today.");
+}
+
+totalCups();
