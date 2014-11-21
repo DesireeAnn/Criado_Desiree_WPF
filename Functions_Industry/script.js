@@ -12,6 +12,8 @@ alert("Thank you for your interest in our work! We'd be happy to provide you wit
 
 //Prompt for Shirt or Sweater
 var style = prompt("Are you purchasing a shirt or sweater?");
+//Define style with monetary amount
+style == ("shirt") ? style = 3 : style = 13;
 
 //Print to console
 console.log(style);
@@ -25,8 +27,18 @@ console.log(sides);
 //Prompt for Number of Colors based on previous answer
 if(sides < 2){
     var colors = prompt("How many colors are in the design?");
-}else {var colors = prompt("How many colors on the front and back combined?");}
+}else if(sides = 2){
+    var colors = prompt("How many colors on the front and back combined?");}
 
 //Print to console
 console.log(colors);
+
+//Define function
+calcPrice();
+function calcPrice(){
+    var price = designFee + Number(style) + Number(sides * colors);
+    console.log("The shirt will cost $" + price);
+}
+
+
 
