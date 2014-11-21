@@ -27,7 +27,7 @@ var child = prompt("How many children do you have?");
 console.log(child);
 
 //Age verification for children
-var age = prompt("How many children are 18 or over?");
+if(child > 0){var age = prompt("How many children are 18 or over?");}
 
 //Underage Child alert
 if(age == 0) {
@@ -37,10 +37,13 @@ if(age > 0){
     console.log(age);
 }
 
-var calcRes = function(age, child, guest) {
-    var seats = (age * child) ++ guest ++ 1;
+var calcRes;
+calcRes = function (age, child, guest) {
+    var seats = Number(age * child)++
+    Number(guest)++
+    1;
     return seats;
-}
+};
 var totalSeats = calcRes(age, child, guest);
 console.log(totalSeats);
-
+alert("There are " + totalSeats + " seats reserved in your name. See you then!");
